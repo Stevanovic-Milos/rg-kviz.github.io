@@ -225,7 +225,7 @@ body {
 
 }
 .quiz-container h1{
-    font-size: 32px;
+    font-size: 16px;
     text-align: center;
     background: linear-gradient(45deg, transparent,#020035,transparent);
     border-radius: 10px;
@@ -240,7 +240,7 @@ body {
     margin-bottom: 30px;
 }
 .quiz-header span {
-    font-size: 18px;
+    font-size: 16px;
     font-weight: 500;
 }
 .quiz-header .header-score {
@@ -254,7 +254,7 @@ body {
 }
 .options .option{
     width: 100%;
-    padding: 12px;
+    padding: 7px;
     background: transparent;
     border: 2px solid rgba(255, 255, 255, .3);
     border-radius: 10px;
