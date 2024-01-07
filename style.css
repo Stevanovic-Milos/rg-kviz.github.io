@@ -214,6 +214,7 @@ body {
     transform: scale(.6);
     transition: .3s ease;
     transition-delay: 0s;
+    height:500px;
 
 }
 .quiz-section .quiz-container.active{
@@ -225,7 +226,7 @@ body {
 
 }
 .quiz-container h1{
-    font-size: 16px;
+    font-size: 10px;
     text-align: center;
     background: linear-gradient(45deg, transparent,#020035,transparent);
     border-radius: 10px;
