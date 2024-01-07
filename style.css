@@ -237,7 +237,7 @@ body {
     align-items: center;
     padding: 20px 0;
     border-bottom: 2px solid #020035;
-    margin-bottom: 30px;
+    margin-bottom: 10px;
 }
 .quiz-header span {
     font-size: 16px;
@@ -245,16 +245,16 @@ body {
 }
 .quiz-header .header-score {
     background: #020035;
-    border-radius: 3px;
+    border-radius: 1px;
     padding: 15px;
 }
 .quiz-container .question-text {
-    font-size: 24px;
+    font-size: 14px;
     font-weight: 400px;
 }
 .options .option{
     width: 100%;
-    padding: 7px;
+    padding: 4px;
     background: transparent;
     border: 2px solid rgba(255, 255, 255, .3);
     border-radius: 10px;
