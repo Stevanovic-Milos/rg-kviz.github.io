@@ -214,7 +214,6 @@ body {
     transform: scale(.6);
     transition: .3s ease;
     transition-delay: 0s;
-    height:500px;
 
 }
 .quiz-section .quiz-container.active{
@@ -225,37 +224,31 @@ body {
     transition-delay: 1s;
 
 }
-.quiz-container h1{
-    font-size: 10px;
-    text-align: center;
-    background: linear-gradient(45deg, transparent,#020035,transparent);
-    border-radius: 10px;
 
-}
 .quiz-container .quiz-header{
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 20px 0;
     border-bottom: 2px solid #020035;
-    margin-bottom: 10px;
+    margin-bottom: 30px;
 }
 .quiz-header span {
-    font-size: 16px;
+    font-size: 18px;
     font-weight: 500;
 }
 .quiz-header .header-score {
-    background: #020035;
-    border-radius: 1px;
+    background: linear-gradient(45deg, transparent,#020035,transparent);
+    border-radius: 25px;
     padding: 15px;
 }
 .quiz-container .question-text {
-    font-size: 14px;
+    font-size: 24px;
     font-weight: 400px;
 }
 .options .option{
     width: 100%;
-    padding: 4px;
+    padding: 12px;
     background: transparent;
     border: 2px solid rgba(255, 255, 255, .3);
     border-radius: 10px;
