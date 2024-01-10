@@ -12,6 +12,21 @@ const homebtn = document.querySelector('.btn-home')
 const totalQuestions = 10;
 
 
+var score = document.getElementById("top-score");
+
+function scorerotate() {
+    rotationAngle = 0; // Reset rotation angle
+    var interval = setInterval(function () {
+        rotationAngle += 1;
+        score.style.transform = "rotate(" + rotationAngle + "deg)";
+
+        // Stop the rotation when it reaches 360 degrees
+        if (rotationAngle >= 360) {
+            clearInterval(interval);
+        }
+    }, 3); // Adjust the interval for smoother or faster rotation
+}
+
 startbtn.onclick = () => {
     popup.classList.add('active');
     main.classList.add('active');
@@ -125,6 +140,7 @@ function optionSelected(answer){
         answer.classList.add('correct');
         userScore+=1;
         headerScore();
+        scorerotate();
     }
     else{
         console.log('netacno');
