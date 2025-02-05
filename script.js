@@ -145,7 +145,6 @@ function optionSelected(answer){
     else{
         console.log('netacno');
         answer.classList.add('incorrect');
-        // Auto postavljam tacan
         for (let i = 0; i < allOptions; i++) {
             if (optionlist.children[i].textContent === correctAnswer) {
                 optionlist.children[i].classList.add('correct');
@@ -155,9 +154,6 @@ function optionSelected(answer){
 
 
     }
-
-    //iskljucivanje svih opcija nakon izbora
-
     for(let i=0; i<allOptions;i++){
         optionlist.children[i].classList.add('disabled');
     }
