@@ -531,12 +531,10 @@ body {
         height: 130px;
     }
     
-    /* Ensure everything scales well */
     .quiz-container, .result-box, .popup {
         box-sizing: border-box;
     }
     
-    /* Responsive images and content scaling */
     img {
         max-width: 100%;
         height: auto;
