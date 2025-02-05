@@ -416,3 +416,129 @@ body {
     background: transparent;
     color: #020035;
 }
+@media screen and (max-width: 768px) {
+    /* General settings */
+    body {
+        padding: 0;
+        margin: 0;
+        font-family: 'Arial', sans-serif;
+    }
+
+    /* Header */
+    .header {
+        padding: 15px 5%;
+        text-align: center;
+    }
+
+    .logo {
+        font-size: 22px;
+        max-width: 100%;
+        text-align: center;
+    }
+
+    /* Navbar */
+    .navbar {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 15px;
+    }
+
+    .navbar a {
+        font-size: 16px;
+        margin: 0;
+    }
+
+    /* Home Section */
+    .home {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-left: 0;
+    }
+
+    .home-content h1 {
+        font-size: 32px;
+        text-align: center;
+    }
+
+    /* Buttons */
+    .btnh {
+        width: 90%;
+        max-width: 200px;
+        height: 45px;
+        font-size: 14px;
+        margin: 15px auto;
+        display: block;
+    }
+
+    /* Popup */
+    .popup {
+        padding-top: 15px;
+        width: 90%;
+        left: 5%;
+        transform: translate(0%, -50%);
+    }
+
+    /* Quiz Section */
+    .quiz-section .quiz-container {
+        width: 60%;
+        padding: 15px;
+        margin-right:  100px;
+    }
+
+    .quiz-container .question-text {
+        font-size: 16px;
+    }
+
+    .options .option {
+        font-size: 14px;
+        padding: 7px;
+    }
+
+    .quiz-footer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 15px;
+    }
+
+    .quiz-footer .next-btn {
+        width: 90%;
+        max-width: 250px;
+        padding: 10px;
+    }
+
+    .quiz-section .result-box {
+        width: 90%;
+        max-width: 400px;
+        margin: 0 auto;
+    }
+
+    .result-box h2 {
+        font-size: 30px;
+        text-align: center;
+    }
+
+    /* Circular progress */
+    .percentage-container .circular-progress {
+        width: 160px;
+        height: 160px;
+    }
+
+    .percentage-container .circular-progress::before {
+        width: 130px;
+        height: 130px;
+    }
+    
+    /* Ensure everything scales well */
+    .quiz-container, .result-box, .popup {
+        box-sizing: border-box;
+    }
+    
+    /* Responsive images and content scaling */
+    img {
+        max-width: 100%;
+        height: auto;
+    }
+}
